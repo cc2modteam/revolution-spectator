@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data name="Revolution - Spectator" author="Bredroll" description="
+<data name="Rev:Spectator Mode" author="Bredroll" description="
+[i]Requires the Revolution Mod v1.3+[/i]
 
-[b]Requires the Revolution Mod v1.3.7+[/b]
+Team one gets to see all the units on the map from the holomap and bridge
+screens.
 
-Team one gets to see all the units on the map from the holomap.
+Ideal for hosting multi-player games with commentary for streaming but also
+useful for training your crews by taking control of AI units.
+
+Uses library_custom_3.lua
 
 ">
 </data>
