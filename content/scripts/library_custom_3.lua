@@ -2,6 +2,16 @@ g_revolution_spectator_team = 1
 g_revolution_welcome = "Spectator Console"
 
 
+if g_radar_ranges == nil then
+	-- revolution is not installed, tell the user
+	update_screen_overrides = function(screen_w, screen_h, ticks)
+		update_ui_text(20, 20, "Spectator mode needs Revolution mod 1.3 ",
+				110, 0, color_white, 0)
+		return false
+	end
+end
+
+
 function g_revolution_override_radar_range(vehicle)
 	-- if in spectator mode,
 	-- team 1 is the spectator, so set the radar range of the team 1 carrier to 400km
