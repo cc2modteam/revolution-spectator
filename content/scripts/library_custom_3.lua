@@ -26,3 +26,7 @@ function g_revolution_override_radar_range(vehicle)
 	end
 	return 0
 end
+
+if g_rev_mods ~= nil then
+	table.insert(g_rev_mods, "Spectator Mode")
+end
